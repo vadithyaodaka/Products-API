@@ -1,6 +1,7 @@
 package uk.ac.westminster.Products_API;
 
 public class Product {
+
     private Long id;
     private String name;
     private double price;
@@ -15,7 +16,7 @@ public class Product {
 
     public Long getId() {return id;}
 
-//    public String getName() {return name;}
+    public String getName() {return name;}
 
     public double getPrice() {return price;}
 }
